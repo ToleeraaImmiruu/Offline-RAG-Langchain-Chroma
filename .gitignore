@@ -1,0 +1,30 @@
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# ------------------------------
+# OS / Editor files
+# ------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# ------------------------------
+# Chroma / Vector DB
+# ------------------------------
+db/
+chroma_db/
+
+# ------------------------------
+# HuggingFace cache
+# ------------------------------
+.cache/
+huggingface/

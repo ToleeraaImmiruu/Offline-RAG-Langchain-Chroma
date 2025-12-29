@@ -75,7 +75,6 @@ def create_vector_store(chunks, persist_directory="db/chroma_db"):
     print("Vector store created successfully ✅")
     return vectorstore
 
-
 # Main
 
 def main():
@@ -90,3 +89,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

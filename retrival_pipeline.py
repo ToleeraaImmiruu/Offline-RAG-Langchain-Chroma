@@ -7,7 +7,6 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from transformers import pipeline
 
 load_dotenv()
-
 # ===============================
 # 1️⃣ Load vector store (OFFLINE)
 # ===============================

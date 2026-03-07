@@ -13,7 +13,6 @@ def load_documents(docs_path="docs"):
 
     if not os.path.exists(docs_path):
         raise FileNotFoundError(f"Directory '{docs_path}' does not exist")
-
     loader = DirectoryLoader(
         path=docs_path,
         glob="*.txt",

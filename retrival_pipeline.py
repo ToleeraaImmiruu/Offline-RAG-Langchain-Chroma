@@ -33,7 +33,6 @@ queries = [
     "Who founded Google?",
     "What products does Google offer?",
 ]
-
 # ===============================
 # 4️⃣ Offline text generation model
 # ===============================

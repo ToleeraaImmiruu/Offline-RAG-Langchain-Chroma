@@ -40,7 +40,6 @@ generator = pipeline(
     model="google/flan-t5-small",  # works fully offline
     device=-1  # CPU, set to 0 for GPU
 )
-
 # ===============================
 # 5️⃣ Retrieve documents and generate answers
 # ===============================

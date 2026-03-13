@@ -20,7 +20,6 @@ db = Chroma(
     persist_directory=persistent_directory,
     embedding_function=embedding_model
 )
-
 # ===============================
 # 2️⃣ Create retriever
 # ===============================

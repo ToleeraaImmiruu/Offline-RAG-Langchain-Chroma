@@ -10,7 +10,6 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 # --------------------------------------------------
 def load_documents(docs_path="docs"):
     print(f"Loading documents from '{docs_path}'...")
-
     if not os.path.exists(docs_path):
         raise FileNotFoundError(f"Directory '{docs_path}' does not exist")
     loader = DirectoryLoader(

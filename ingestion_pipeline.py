@@ -19,7 +19,6 @@ def load_documents(docs_path="docs"):
         loader_cls=TextLoader,
         loader_kwargs={"encoding": "utf-8"}
     )
-
     documents = loader.load()
     if not documents:
         raise FileNotFoundError("No .txt files found")

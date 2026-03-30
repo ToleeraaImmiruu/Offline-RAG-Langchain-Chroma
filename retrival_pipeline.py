@@ -10,7 +10,6 @@ load_dotenv()
 # 1️⃣ Load vector store (OFFLINE)
 # ===============================
 persistent_directory = "db/chroma_db"
-
 # Use offline embeddings
 embedding_model = HuggingFaceEmbeddings(
     model_name="all-MiniLM-L6-v2"  # small, fast embeddings

@@ -14,7 +14,6 @@ persistent_directory = "db/chroma_db"
 embedding_model = HuggingFaceEmbeddings(
     model_name="all-MiniLM-L6-v2"  # small, fast embeddings
 )
-
 # Load Chroma vector store
 db = Chroma(
     persist_directory=persistent_directory,

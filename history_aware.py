@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
-
 from transformers import pipeline
 # ===============================
 # Load env (not required but OK)

@@ -9,7 +9,6 @@ from transformers import pipeline
 # Load env (not required but OK)
 # ===============================
 load_dotenv()
-
 # ===============================
 # Load Chroma Vector Store
 # ===============================

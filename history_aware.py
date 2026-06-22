@@ -6,7 +6,6 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 
 from transformers import pipeline
-
 # ===============================
 # Load env (not required but OK)
 # ===============================

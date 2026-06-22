@@ -17,7 +17,6 @@ PERSIST_DIR = "db/chroma_db"
 embedding_model = HuggingFaceEmbeddings(
     model_name="all-MiniLM-L6-v2"
 )
-
 db = Chroma(
     persist_directory=PERSIST_DIR,
     embedding_function=embedding_model

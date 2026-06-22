@@ -13,7 +13,6 @@ load_dotenv()
 # Load Chroma Vector Store
 # ===============================
 PERSIST_DIR = "db/chroma_db"
-
 embedding_model = HuggingFaceEmbeddings(
     model_name="all-MiniLM-L6-v2"
 )
